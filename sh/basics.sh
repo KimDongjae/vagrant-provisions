@@ -58,7 +58,8 @@ chsh -s /bin/zsh
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
 
 # Install node
-nvm install --lts=carbon
+nvm install --lts
+nvm alias default node
 
 ##
 # Docker
